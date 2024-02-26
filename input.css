@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.animation {
+  @apply hover:after:w-full inline-block relative after:duration-500 after:h-1 after:w-0 after:m-auto after:bg-main-blue after:left-0 after:content-between after:bottom-2px after:absolute;
+}
+
+.house {
+  @apply flex flex-col relative hover:shadow-lg duration-500 justify-center basis-1/4 bg-white rounded-xl overflow-hidden cursor-pointer border-solid border-2;
+}
+
+.article {
+  @apply flex flex-col relative  duration-500 justify-center basis-1/4 bg-white rounded-xl overflow-hidden cursor-pointer border-solid border-2;
+}
+
+.card {
+  @apply opacity-50 translate-y-20;
+}
+
+.change {
+  @apply opacity-100 translate-y-0;
+}
